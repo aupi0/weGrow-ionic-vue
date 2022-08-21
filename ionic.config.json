@@ -1,0 +1,7 @@
+{
+  "name": "weGrow-ionic-vue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
