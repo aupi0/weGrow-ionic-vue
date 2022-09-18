@@ -1,6 +1,9 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
+# Command to fix ionic serve within vscode terminal
+#   -  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 *~
 *.sw[mnpcod]
 .tmp
