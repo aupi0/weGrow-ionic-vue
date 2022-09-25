@@ -71,10 +71,8 @@ export default defineComponent({
   props: ["feedPost"],
   components: {
     IonAvatar,
-    // IonButton,
     IonCard,
     IonCardSubtitle,
-    // IonCardTitle,
     IonCardContent,
     IonGrid,
     // IonIcon,

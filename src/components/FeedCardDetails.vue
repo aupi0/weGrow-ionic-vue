@@ -10,7 +10,9 @@
         <ion-note>{{ feedPost.location }}</ion-note>
       </ion-label>
     </ion-item>
-    <ion-img :src="feedPost.image"></ion-img>
+    <div class="image-container">
+      <ion-img :src="feedPost.image"></ion-img>
+    </div>
     <ion-card-content>
       <ion-grid>
         <ion-row class="ion-justify-content-between">
@@ -76,9 +78,15 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 ion-card {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   margin: 0px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19);
 }
@@ -87,7 +95,7 @@ ion-card-content {
 }
 ion-img {
   max-width: 100%;
-  max-height: 50%;
+  max-height: 100%;
   object-fit: contain;
 }
 </style>
