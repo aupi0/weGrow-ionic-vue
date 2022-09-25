@@ -101,7 +101,7 @@ export default defineComponent({
 
 <style scoped>
 .feed-cards {
-  min-width: 80%;
+  /* min-width: 80%; */
   /* height: 300px; */
   border-radius: 10px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19);
